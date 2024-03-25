@@ -1,1 +1,18 @@
 -- Private Router
+-- Module.css {
+    file: declaration.d.ts: {
+        declare module '*.module.css'
+    }
+    tsconfig.json{
+        include: ['src/declaration.d.ts']
+    }
+}
+
+-- Props {
+    (props) {
+        const {name, age, item} = props
+    }
+    ({name, age, item})
+}
+
+-- useLocation
